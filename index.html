@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="assets/images/icons8-technology-100.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio | Diogo Amaro</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__bar">
+            <a href="#">Diogo Amaro</a>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <!--<li><a href="assets/images/Diogo Amaro - Resume.pdf" target="_blank">View CV</a></li>-->
+            <!--<li><a href="https://pt.linkedin.com/" target="_blank">LinkedIn</a></li>-->
+            <li><a href="https://github.com/DiogoAmaro13" target="_blank">Github Profile</a></li>
+            <!--
+            <li><a>Gallery</a></li>
+            <li><a>Blog</a></li>
+            -->
+        </ul>
+    </nav>
+<!--
+    <section class="section__container product__container" id="product">
+        <h2 class="section__header">Recent Projects</h2>
+        
+        <p class="section__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus dolorum inventore quod aspernatur cum ea omnis,
+            expedita aperiam animi necessitatibus eligendi nam placeat rem.
+        </p>
+        -->
+        
+    <!--
+        <div class="product__grid">
+            <div class="product__card">
+                <img src="./assets/images/ML Pres.png" alt="product">
+                <h4>Machine Learning</h4>
+                <p>
+                    Adjust this description accordingly to the content of the projects. The same goes for the others.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="product__card">
+                <img src="./assets/images/ML Pres.png" alt="product">
+                <h4>Deep Learning</h4>
+                <p>
+                    Here, the projects focus on the application of advanced deep learning techniques. These include applications of convolutional neural networks (CNNs) for image analysis 
+                    and recurrent neural networks (RNNs) for sequential data. The section underscores my proficiency in designing, training, and optimizing deep learning 
+                    models to address specific scenarios.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="product__card">
+                <img src="./assets/images/ML Pres.png" alt="product">
+                <h4>Implementation</h4>
+                <p>
+                    This section showcases the practical work in translating concepts from research papers into functional applications. 
+                    This involves hands-on coding and deployment, providing a concrete realization of theoretical ideas.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    -->
+    </section>
+
+    <section class="section__container gallery__container" id="gallery">
+<!--================================================================== PROJECT 1 ======================================================================================================-->
+        <!--TEST-->
+        <div class="gallery__image">
+            <img src="./assets/images/es.jpg" alt="gallery">
+            <div class="gallery__image__details">
+                <h4>Electrocardiograph System</h4>
+                <div>
+                    <button class="btn" onclick="showDescription('myModal1')">Details</button>
+                    <a href="assets/images/Sistema_Eletrocardiográfico.pdf" class="btn" target="_blank">Report (PT)</a>
+                    <a href="https://github.com/DiogoAmaro13/Electrocardiograph-System/tree/main" class="btn" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- The modal container -->
+        <div id="myModal1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('myModal1')">&times;</span>
+                <h2>Electrocardiograph System</h2>
+                <span class="category__project"><em>Category: Hardware Systems</em></span>
+                <p>
+                    <br>Digital Instrumentation
+                </p>
+                <ul class="projects__list">
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                            Real-time monitoring and alert system to detect abnormal variations in cardiac signals
+                        </p>
+                    </li>
+
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                            Integration of an Arduino board for cardiac signal detection and interpretation
+                        </p>
+                    </li>
+
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                            LabVIEW to provide the visual interface for real-time data monitoring
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--END OF TEST-->
+<!--================================================================== PROJECT 3 ======================================================================================================-->
+        <!--TEST-->
+        <div class="gallery__image">
+            <img src="./assets/images/es.jpg" alt="gallery">
+            <div class="gallery__image__details">
+                <h4>Muscle Contraction Detector</h4>
+                <div>
+                    <button class="btn" onclick="showDescription('myModal3')">Details</button>
+                    <a href="assets/images/ELA - Deteção de Contrações Musculares (1).pdf" class="btn" target="_blank">Report (PT)</a>
+                    <a href="https://github.com/DiogoAmaro13/EMG-Activity-in-ALS-Patients" class="btn" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- The modal container -->
+        <div id="myModal3" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('myModal3')">&times;</span>
+                <h2>Electromyography Analysis</h2>
+                <span class="category__project"><em>Category: Machine Learning</em></span>
+                <p>
+                    <br>Amyotrophic Lateral Sclerosis
+                </p>
+                <ul class="projects__list">
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Detection of anomalies in electromyography activity in ALS patients
+                        </p>
+                    </li>
+
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Comparison between a control group
+                        </p>
+                    </li>
+
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Identification of fibrillation and fasciculation potentials
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--END OF TEST-->
+<!--================================================================== PROJECT 2 ======================================================================================================-->
+        <!--TEST-->
+        <div class="gallery__image">
+            <img src="./assets/images/es.jpg" alt="gallery">
+            <div class="gallery__image__details">
+                <h4>Neural Network for EDA Classification</h4>
+                <div>
+                    <button class="btn" onclick="showDescription('myModal2')">Details</button>
+                    <a href="https://github.com/DiogoAmaro13/Neural-Network-for-EDA-Analysis" class="btn" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- The modal container -->
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('myModal2')">&times;</span>
+                <h2>Neural Network</h2>
+                <span class="category__project"><em>Category: Deep Learning</em></span>
+                <p>
+                    <br>Electrodermal Activity Analysis
+                </p>
+                <ul class="projects__list">
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Deep Neural Network for electrodermal activity
+                        </p>
+                    </li>
+
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Classification of skin arousal levels based on specific tasks
+                        </p>
+                    </li>
+
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        One-hot encoding classification
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--END OF TEST-->
+<!--================================================================== PROJECT 4 ======================================================================================================-->
+        <!--TEST-->
+        <div class="gallery__image">
+            <img src="./assets/images/es.jpg" alt="gallery">
+            <div class="gallery__image__details">
+                <h4>Spinal Cord Segmentation</h4>
+                <div>
+                    <button class="btn" onclick="showDescription('myModal4')">Details</button>
+                    <a href="assets/images/59160_59781_Relatório_PIM.pdf" class="btn" target="_blank">Report (PT)</a>
+                    <a href="https://github.com/DiogoAmaro13/Vertebrae-Detection/tree/main" target="_blank" class="btn">Source Code</a>
+                </div>
+            </div>
+        </div>
+                
+        <!-- The modal container-->
+        <div id="myModal4" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('myModal4')">&times;</span>
+                <h2>Vertebrae Identification</h2>
+                <span class="category__project"><em>Category: Medical Image Segmentation</em></span>
+                <p>
+                    <br>Image Analysis
+                </p>
+                <ul class="projects__list">
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Segmentation of the spinal cord based on units (vertebraes)
+                        </p>
+                    </li>
+        
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Identification of the biggest vertebrae and its respective dimensions
+                        </p>
+                    </li>
+        
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Evaluation of the possibility of a patient developing spinal stenosis
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--END OF TEST-->
+<!--================================================================== PROJECT 5 ======================================================================================================-->
+        <!--TEST-->
+        <div class="gallery__image">
+            <img src="./assets/images/es.jpg" alt="gallery">
+            <div class="gallery__image__details">
+                <h4>Work in progress...</h4>
+                <div>
+                    <button class="btn" onclick="showDescription('myModal5')"></button>
+                    <a href="#" class="btn"></a>
+                </div>
+            </div>
+        </div>
+                
+        <!-- The modal container
+        <div id="myModal5" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('myModal5')">&times;</span>
+                <h2>Neural Network 101</h2>
+                <span class="category__project"><em>Category: Deep Learning</em></span>
+                <p>
+                    <br>Project 5
+                </p>
+                <ul class="projects__list">
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Test on bullet
+                        </p>
+                    </li>
+        
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Bullet point number 1
+                        </p>
+                    </li>
+        
+                    <li class="project__points">
+                        <i class='bx bx-check' ></i>
+                        <p class="project__content">
+                        Bullet point number 1
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>-->
+        <!--END OF TEST-->
+    </section>
+
+
+
+
+
+
+    <!--ARTICLES SECTION (MIGHT BE USED IN A NEAR FUTURE)
+    <section class="article" id="blog">
+        <div class="section__container article__container">
+            <h2 class="section__header">Latest Article</h2>
+            <div class="article__grid">
+                <div class="article__card">
+                    <img src="./assets/images/article-1.jpg" alt="article">
+                    <h4>Mastering Photography</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aspernatur, ducimus! Sit, quo eum. Provident, esse.
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="article__card">
+                    <img src="./assets/images/article-2.jpg" alt="article">
+                    <h4>Beyond the Horizont</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aspernatur, ducimus! Sit, quo eum. Provident, esse.
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="article__card">
+                    <img src="./assets/images/article-3.jpg" alt="article">
+                    <h4>Future Delivery</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aspernatur, ducimus! Sit, quo eum. Provident, esse.
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
