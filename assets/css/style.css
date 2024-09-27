@@ -481,6 +481,56 @@ nav {
     cursor: pointer;
 }
 
+/* Language Menu */
+.nav__dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav__dropdown-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav__dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    /*box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);*/
+    min-width: 120px;
+    z-index: 1;
+    padding-top: 5px;
+}
+
+.nav__dropdown-menu li {
+    list-style: none;
+}
+
+.nav__dropdown-menu li a {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.nav__dropdown-menu li a:hover {
+    font-weight: bold;
+    color: #18191a;
+}
+
+.nav__dropdown:hover .nav__dropdown-menu {
+    display: block;
+}
+
+/* Flag icon styling */
+.flag-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 8px;
+}
+
 /*CSS END TEST*/
 
 
