@@ -7,6 +7,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="assets/images/icons8-technology-100.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
     <title>Portfolio | Diogo Amaro</title>
 </head>
 
@@ -21,12 +22,24 @@
         <ul class="nav__links" id="nav-links">
             <!--<li><a href="assets/images/Diogo Amaro - Resume.pdf" target="_blank">View CV</a></li>-->
             <!--<li><a href="https://pt.linkedin.com/" target="_blank">LinkedIn</a></li>-->
-            <li><a href="https://github.com/DiogoAmaro13" target="_blank">Github Profile</a></li>
+            <li><a style="font-size: 1.35rem;" href="https://github.com/DiogoAmaro13" target="_blank"><i class='bx bxl-github'></i></a></li>
+            <!--<li><a style="font-size: 1.35rem;" href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin-square'></i></a></li>-->
             <!--
             <li><a>Gallery</a></li>
             <li><a>Blog</a></li>
             -->
+            <!-- Language dropdown menu -->
+            <li class="nav__dropdown">
+                <a href="#" class="nav__dropdown-toggle">
+                    <img src="assets/images/flag-for-flag-united-kingdom-svgrepo-com.svg" alt="English" class="flag-icon"> English <i class="bx bx-chevron-down"></i>
+                </a>
+                <ul class="nav__dropdown-menu">
+                    <li><a href="de-index.html"><img src="assets/images/flag-for-flag-germany-svgrepo-com.svg" alt="German" class="flag-icon"> German</a></li>
+                    <li><a href="fr-index.html"><img src="assets/images/flag-for-flag-france-svgrepo-com.svg" alt="French" class="flag-icon"> French</a></li>
+                </ul>
+            </li>
         </ul>
+        
     </nav>
 <!--
     <section class="section__container product__container" id="product">
